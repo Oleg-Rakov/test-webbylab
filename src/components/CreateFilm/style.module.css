@@ -1,0 +1,119 @@
+.container {
+  max-width: 1200px;
+  width: 75%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.createBtn {
+  font-size: 16px;
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  color: #67c5ff;
+  border: solid 2px #67c5ff;
+  border-radius: 3px;
+  transition: 0.4s;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.createBtn:hover {
+  background: #67c5ff;
+  color: white;
+}
+
+.wrapper {
+  width: 65%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='file'] {
+  color: transparent !important;
+}
+input[type='file']::before {
+  content: 'You can create a movie by selecting a text file:';
+  color: #666;
+  font-size: 15px;
+  padding-right: 30px;
+}
+
+::-webkit-file-upload-button {
+  font-weight: bold;
+  color: #666;
+  border: 1px solid rgb(235, 230, 230);
+  cursor: pointer;
+  padding: 1em;
+  background: white;
+}
+
+::-webkit-file-upload-button:hover {
+  background: rgb(196, 196, 196);
+  border-radius: 5px;
+  transition: 0.8s ease all;
+}
+
+input,
+.select {
+  width: 84%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+  color: #666;
+  box-shadow: none;
+  background-color: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+.select:after {
+  top: 50%;
+  left: 85%;
+  border: solid transparent;
+  content: ' ';
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(0, 0, 0, 0);
+  border-top-color: #000000;
+  border-width: 5px;
+  margin-top: -2px;
+  z-index: 100;
+}
+
+.item {
+  margin: 10px 0;
+}
+
+.applyBtn {
+  width: 60%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.applyBtn:hover {
+  background-color: #45a049;
+}
